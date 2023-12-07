@@ -1,16 +1,16 @@
 {
-  "name": "group2-capstone-project-chat",
+  "name": "cohort3-group2-capstone-project-chat",
   "version": "1.0.0",
-  "description": "ChatSecure App",
+  "description": "Chat App",
   "main": "index.js",
-  "author": "SCTP Cohort 2 Group 2",
+  "author": "Cohort 3 Group 2",
   "dependencies": {
     "express": "~4.17.1",
     "socket.io": "^4.0.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "jest"
+    "start": "node index.js"
+    
   },
   "devDependencies": {
     "jest": "^29.6.4",

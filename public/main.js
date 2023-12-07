@@ -70,9 +70,9 @@ function initializeApp() {
   const addParticipantsMessage = (data) => {
     let message = '';
     if (data.numUsers === 1) {
-      message += `there's 1 participant`;
+      message += `Total: 1 participant`;
     } else {
-      message += `there are ${data.numUsers} participants`;
+      message += `Total: ${data.numUsers} participants`;
     }
     log(message);
   }
@@ -242,7 +242,7 @@ function initializeApp() {
   socket.on('login', (data) => {
     connected = true;
     // Display the welcome message
-    const message = 'Welcome to ChatSecure - Private Room';
+    const message = 'Welcome to Chat App!';
     log(message, {
       prepend: true
     });
